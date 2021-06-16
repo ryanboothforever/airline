@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./Header.css";
-import navLogo from "../img/airline-logo.jpg";
 
 class Header extends Component {
   componentDidMount() {
@@ -14,7 +13,7 @@ class Header extends Component {
   render() {
     return (
       <section>
-        <nav className="blue lighten-1">
+        <nav className="nav">
           <div className="nav-wrapper">
             <a
               href="#"
@@ -23,13 +22,6 @@ class Header extends Component {
             >
               <i className="material-icons">menu</i>
             </a>
-
-            <a href="#" className="brand-logo">
-              <div className="nav-wrapper">
-                <img className="responsive-img" src={navLogo} />
-              </div>
-            </a>
-
             <ul id="nav-mobile" className="right hide-on-med-and-down">
               <li>
                 <a href="sass.html">Book</a>

@@ -1,0 +1,12 @@
+.bg{
+    background: url("../img/airline-logo.jpg") no-repeat center;
+    background-size: cover;
+    height: 700px;
+
+}
+
+@media screen and (max-width: 745px){
+    .bg{
+     
+    }
+}
