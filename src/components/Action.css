@@ -1,12 +1,16 @@
 .bg{
-    background: url("../img/airline-logo.jpg") no-repeat center;
+    background: url("../img/airline-logo2.jpg") no-repeat;
+    background-position: center;
     background-size: cover;
-    height: 700px;
-
+    height: 600px;
 }
 
-@media screen and (max-width: 745px){
+@media screen and (max-width: 985px){
     .bg{
-     
+      height: 400px;
     }
 }
+
+/* .responsive-img{
+   position: absolute;
+} */

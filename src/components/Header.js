@@ -15,6 +15,11 @@ class Header extends Component {
       <section>
         <nav className="nav">
           <div className="nav-wrapper">
+            <a href="#" class="brand-logo center">
+              <span className="nav-text company-name">
+                Winged Mare Airlines
+              </span>
+            </a>
             <a
               href="#"
               data-target="slide-out"
